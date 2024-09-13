@@ -1,0 +1,121 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/contents.css">
+    <script src="./js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<div class="layout_wrap">
+    <div class="layout_header">
+        <div class="util_wrap">
+            <div class="logo_area"><a href="index.html">Synthya</a></div>
+            <div class="util_wrap_menu">
+                <a href="./index.html" class="menu1" >Company</a>
+                <a href="./ai_voice.html" class="menu2">AI Voice Studio</a>
+                <a href="./audiobook_production.html" class="menu3 on">Audiobook Production</a>
+            </div>
+        </div>
+    </div>
+    <div class="content_body">
+        <div class="ai_audiobook_body">
+        <div class="section_tpA">
+            <div class="cont" >
+                <div class="content_title">
+                    <div class="title sec1" a="section_tpA_sec">AI Audiobook Production Studio</div>
+                    <div class="subtitle sec2" a="section_tpA_sec">
+                        Currently, our audiobook studio service is exclusively available to our business partners.<br >
+                        We welcome new users only through established channels to ensure quality and exclusivity. <br >
+                        For access to our services or to request a demo, please contact us at <span class="sub_email">business@synthya.ai</span>
+                    </div>
+                    <a class="sub_title_button sec3" a="section_tpA_sec">
+                        <img src="./img/profile_henry.png" class="profile_henry">
+                        <div class="title">Henry</div>
+                        <div class="sub_title">English Male Voice</div>
+                        <img src="./img/profile_play.png" class="profile_play">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="section_tpB_contents">
+            <div class="left sec1" a="section_tpB_sec" >
+                <img src="./img/ai_audiobook_img1.png">
+                <div class="txt">
+                <div class="title">Streamline Your Production :<br >Just one click for results in 10 minutes</div>
+                <div class="sub_title">Our platform is designed to simplify your production workflow,<br >
+                    enabling you to produce drafts in as little as 10 minutes.<br >
+                    This rapid turnaround time not only enhances your productivity<br >
+                    but also allows you to focus more on creativity and content quality.</div>
+                </div>
+            </div>
+
+            <div class="right sec2" a="section_tpB_sec">
+                <img src="./img/ai_audiobook_img2.png">
+                <div class="txt">
+                    <div class="title">Smart Voice Casting :<br >
+                        Tailored Narration for Every Story</div>
+                    <div class="sub_title">Our advanced AI engine thoroughly reads and analyzes<br >each book, identifying key characters to automatically<br >select the most suitable voices tailored to the genre. </div>
+                </div>
+            </div>
+
+            <div class="left sec3"  a="section_tpB_sec">
+                <img src="./img/ai_audiobook_img3.png">
+                <div class="txt">
+                    <div class="title">Scalable Mass Production</div>
+                    <div class="sub_title">Our platform is designed for mass production, capable of<br>
+                        producing a minimum of 10,000 audiobooks per month.<br>
+                        Scalability is central to our service, with production capacity<br>
+                        that can be readily increased to meet growing demand.</div>
+                </div>
+            </div>
+
+            <div class="right sec4" a="section_tpB_sec">
+                <img src="./img/ai_audiobook_img4.png">
+                <div class="txt">
+                    <div class="title">Harness Advanced AI for<br >Seamless Audiobook Production</div>
+                    <div class="sub_title">Our service handles the complexities of technology<br >adoption, allowing you to focus on creating compelling<br >content with ease and convenienc</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="layout_footer">
+        <div class="cont">
+            <div class="line"></div>
+            <div class="footer_log"><img src="./img/footer_log.png" ></div>
+            <div class="resoures_title">Resources</div>
+            <div class="resoures_sub_title">
+                <div class="text"><a href="index.html">FAQ</a></div>
+                <div class="text"><a href="index.html">Contact Us</div>
+                <div class="text"><a href="index.html">Tutorials</div>
+            </div>
+
+            <div class="company_title"> Company</div>
+            <div class="company_sub_title">
+                <div class="text"><a href="index.html">Cookie policy</a></div>
+                <div class="text"><a href="index.html">Privacy policy</a></div>
+                <div class="text"><a href="index.html">Terms of Service</a></div>
+            </div>
+            <div class="copyright">ⓒ 2024 SYNTHYA Inc. All rights reserved.</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $( document ).ready(function() {
+        $('div[a="section_tpA_sec"]').addClass('show');
+        $('img[a="section_tpA_sec"]').addClass('show');
+        $('div[a="section_tpB_sec"]').addClass("show");
+    });
+
+    // window.addEventListener("scroll", function() {
+    //
+    //     var section_tpB_top = $('.section_tpB_contents').offset().top;
+    //     var scrollPosition = window.scrollY+800;
+    //
+    //     if (scrollPosition >= section_tpB_top) {
+    //         $('div[a="section_tpB_sec"]').addClass("show");
+    //     }
+    // });
+</script>
+</body>
+</html>
